@@ -1,0 +1,1180 @@
+@media (min-width: 240px) and (max-width: 479px) {
+
+
+  footer#footer {
+    height: auto;
+  }
+
+  footer#footer>div {
+    display: block;
+    text-align: center;
+  }
+
+  footer#footer>div>.left_footer {
+    padding: 0 0 10px;
+    display: block;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    padding: 0 0 15px;
+  }
+
+  .jis {
+    width: 100%;
+    float: none;
+    padding: 0 0 0px;
+    text-align: center
+  }
+
+  .social_links span {
+    display: none;
+  }
+
+  .social_links {
+    width: 100%;
+    float: none;
+  }
+
+  .main_wrapper.up_footer footer#footer {
+    bottom: 140px;
+  }
+
+  .opened_nav .logo {
+    transform: translate(-120px, 0);
+  }
+
+  .index_bg {
+    display: none;
+  }
+
+  .index_bullets {
+    display: none;
+  }
+
+  .index_inset {
+    display: none;
+  }
+
+  a.toggler {
+    right: 20px;
+  }
+
+  .index_nav {
+    width: 100%;
+    padding: 60px 0 0;
+  }
+
+  .index_nav ul {
+    width: 304px;
+    height: 304px;
+  }
+
+  .index_nav ul li {
+    width: 140px;
+    height: 140px;
+    margin: 6px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05), 0 10px 27px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .index_nav ul li a::after {
+    width: 50px;
+    height: 50px;
+  }
+
+  .index_nav ul li a span {
+    height: 115px;
+  }
+
+  .index_nav ul li a strong {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  header#header.index .phone {
+    padding: 20px 80px 0 0px;
+  }
+
+  header#header.index .phone span {
+    color: #159ee3;
+  }
+
+  header#header.index .phone a {
+    color: #159ee3;
+  }
+
+  header#header.index a.toggler {
+    right: 20px;
+    background: #159ee3;
+  }
+
+  header#header.index a.toggler p {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active p {
+    background: #159ee3;
+  }
+
+  header#header>div {
+    padding: 20px 20px 0;
+  }
+
+  header#header .phone {
+    padding: 20px 80px 0 40px;
+  }
+
+  #header>div>.logo>a {
+    width: 80px;
+    height: 92px;
+    background-size: 100%;
+  }
+
+  div#aside_nav {
+    width: calc(100% - 10px);
+    right: calc(-100% + 10px);
+  }
+
+  div#aside_nav>div {
+    padding: 140px 20px 0;
+  }
+
+  div#aside_nav>div>div {
+    height: calc(100vh - 160px);
+  }
+
+  div#aside_nav section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content>div {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 10px 0 80px;
+    margin: 0;
+  }
+
+  .inner_content>div>h2 {
+    padding: 0 70px 30px;
+    font-size: 24px;
+  }
+
+  .inner_content>div>h2 img {
+    display: none;
+  }
+
+  .inner_content>div>.polyclinic_grid>div {
+    width: calc(100% - 20px);
+    max-width: 240px;
+    float: none;
+    margin: 0 auto 20px !important;
+  }
+
+  .inner_content>div>.polyclinic_grid>div.long {
+    width: calc(100% - 20px);
+  }
+
+  div.inner_nav {
+    display: none;
+    width: 100%;
+    padding: 0 10px;
+    left: 0;
+    top: 120px;
+  }
+
+  div.inner_nav ul li {
+    width: 25%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  div.inner_nav ul li a {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .inner_content {
+    padding: 0px 0 0;
+  }
+
+  .inner_content>div {
+    padding: 0 15px;
+  }
+
+  .inner_content>div .current_fillial_map {
+    display: block;
+  }
+
+  .inner_content>div .current_fillial_map #simple_map {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address:only-child .text>div {
+    width: 100%;
+    float: none;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address:only-child .text>div:first-child {
+    padding: 0 0 0 0;
+  }
+
+  .inner_content>div .symptom_search>.last_articles>div>div article {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+
+  .symptom_form input {
+    width: 100%;
+  }
+
+  a.switcher {
+    right: 0;
+    top: 70px;
+  }
+
+  .tags_list {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    background: #fff;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 8px 0;
+  }
+
+  .tags_list>div {
+    overflow: hidden;
+    width: 0;
+  }
+
+  .tags_list>div>div {
+    width: calc(100vw - 105px);
+    padding: 20px 10px 10px;
+  }
+
+  .tags_list>a {
+    display: block;
+  }
+
+  .inner_content>div>.article_tabs a {
+    width: 100%;
+    height: 48px;
+    border-left: 1px solid #dcdcdc;
+    line-height: 48px;
+    border-top: none;
+  }
+
+  .inner_content>div>.article_tabs a:first-child {
+    border-top: 1px solid #dcdcdc;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .inner_content>div>.article_tabs a:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .inner_content>div .doctors_grid>div section .inner>div figure {
+    width: calc(100% - 25px);
+  }
+
+  .inner_content>div .doctors_grid>div>figure {
+    width: calc(100% - 25px);
+  }
+
+  .inner_content>div .doctor_info {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .inner_content>div .content_side {
+    width: 100%;
+  }
+
+  .inner_content>div .package_list>div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content>div .package_list>div>div {
+    width: 100%;
+    margin: 0 0 70px;
+  }
+
+  .inner_content>div .package_list>div>div p {
+    top: calc(100% + 15px);
+    font-size: 18px;
+  }
+
+  .inner_content>div .similar_packages h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 0 20px;
+  }
+
+  .inner_content>div .similar_packages>div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content>div .similar_packages>div>div {
+    width: 100%;
+    margin: 0 0 80px;
+  }
+
+  .inner_content>div .similar_packages>div>div p {
+    top: calc(100% + 15px);
+  }
+
+  .inner_content>div>.filiall_grid>div {
+    width: 100%;
+    margin: 0 0 80px;
+  }
+
+  .inner_content>div>.filiall_grid>div span {
+    width: calc(100% - 40px);
+    font-size: 18px;
+    top: calc(100% + 15px);
+  }
+
+  .inner_content>div .filiall_tabs {
+    padding: 0 0 20px;
+  }
+
+  .inner_content>div .filiall_tabs a {
+    width: 100%;
+    height: 48px;
+    border-left: 1px solid #dcdcdc;
+    line-height: 48px;
+    border-top: none;
+  }
+
+  .inner_content>div .simple_page .vacancy_list .list ul li {
+    width: 100%;
+    height: auto;
+    margin: 0 0 30px !important;
+  }
+
+  .inner_content>div .simple_page .vacancy_list .list ul li a strong {
+    padding: 15px 0 0;
+  }
+
+  .inner_content>div .current_vacancy header h3 {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .inner_content>div .current_vacancy header .link {
+    width: 100%;
+  }
+
+  .inner_content>div .current_vacancy header .link a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .inner_content>div .card_list article {
+    width: 100%;
+    height: auto;
+    margin: 0 0 40px !important;
+  }
+
+  .inner_content>div .card_list article .image {
+    padding: 0 0 20px;
+  }
+
+  .inner_content>div .current_card .card {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .inner_content>div .current_card .info {
+    width: 100%;
+  }
+
+
+  .simple_page .image.compact {
+    padding: 0 0 20px;
+    text-align: center;
+  }
+
+  .simple_page .image.compact img {
+    max-width: 100%;
+    width: auto;
+  }
+
+  .simple_page .text .analiz_icon {
+    display: block;
+    margin: 10px 0 0;
+  }
+
+  .inner_content>div .doctors_grid>div section .inner>div figure h4 {
+    font-size: 18px;
+  }
+
+  .inner_content>div .doctors_grid>div>figure h4 {
+    font-size: 18px;
+  }
+
+  .inner_content>div .doctors_grid>div section .inner>div figure p {
+    font-size: 18px;
+  }
+
+  .inner_content>div .doctors_grid>div>figure p {
+    font-size: 18px;
+  }
+
+
+  .go_back {
+    padding: 5px 0 0;
+  }
+
+
+  .payment_form {
+    padding: 0;
+  }
+
+  .payment_form .field_info {
+    right: 20px;
+  }
+
+  .payment_form .field_info em {
+    left: auto;
+    right: 0;
+  }
+
+  .payment_form .field_info em::before {
+    left: calc(100% - 15px)
+  }
+
+  .inner_content>div>.analiz_search .form {
+    width: 100%;
+    padding: 0 0 10px;
+  }
+
+  .analiz_search .link {
+    width: 100%;
+    text-align: center;
+  }
+
+  .symptom_map {
+    display: none !important;
+  }
+
+  .symptom_search {
+    display: block !important;
+  }
+
+  .search_by_image_header .text {
+    display: none !important;
+  }
+
+  .symptom_form {
+    display: block !important;
+  }
+
+  a.switcher {
+    display: none;
+  }
+
+  .tags_list.toggle_tags>div>div {
+    display: block;
+  }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+  footer#footer>div {
+    display: block;
+    text-align: center;
+  }
+
+  footer#footer>div>.left_footer {
+    padding: 0 0 10px;
+    justify-content: space-between;
+  }
+
+  .social_links {
+    float: none;
+  }
+
+  .main_wrapper.up_footer {
+    padding: 0 0 160px;
+  }
+
+  .main_wrapper.up_footer footer#footer {
+    bottom: 100px;
+  }
+
+  .index_bg {
+    display: none;
+  }
+
+  .index_bullets {
+    display: none;
+  }
+
+  .index_inset {
+    display: none;
+  }
+
+  .index_nav {
+    width: 100%;
+  }
+
+  .index_nav ul li {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05), 0 10px 27px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  a.toggler {
+    right: 20px;
+    background: #159ee3;
+  }
+
+  a.toggler p {
+    background: #fff;
+  }
+
+  a.toggler.active {
+    background: #fff;
+  }
+
+  a.toggler.active p {
+    background: #159ee3;
+  }
+
+  #header>div>.logo>a {
+    width: 80px;
+    height: 92px;
+    background-size: 100%;
+  }
+
+  header#header.index .phone span {
+    color: #159ee3;
+  }
+
+  header#header.index .phone a {
+    color: #159ee3;
+  }
+
+  header#header.index a.toggler {
+    right: 20px;
+    background: #159ee3;
+  }
+
+  header#header.index a.toggler p {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active p {
+    background: #159ee3;
+  }
+
+  header#header>div {
+    padding: 20px 20px 0;
+  }
+
+  header#header .phone {
+    padding: 20px 80px 0 60px;
+  }
+
+  header#header .phone a {
+    color: #159ee3;
+  }
+
+  div#aside_nav {
+    width: 360px;
+    right: -360px;
+  }
+
+  div#aside_nav>div {
+    padding: 140px 20px 0;
+  }
+
+  div#aside_nav section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content {
+    padding: 0px 0 0;
+  }
+
+  .inner_content>div {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 15px 0 15px;
+    margin: 0;
+  }
+
+  .inner_content>div>h2 {
+    padding: 0 70px 30px;
+    font-size: 24px;
+  }
+
+  .inner_content>div>h2 img {
+    display: none;
+  }
+
+  .inner_content>div>.polyclinic_grid>div {
+    width: calc(50% - 20px);
+  }
+
+  .inner_content>div>.polyclinic_grid>div.long {
+    width: calc(100% - 20px);
+  }
+
+  div.inner_nav {
+    display: none;
+    width: 100%;
+    padding: 0 10px;
+    left: 0;
+    top: 120px;
+  }
+
+  div.inner_nav ul li {
+    width: 25%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  div.inner_nav ul li a {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .inner_content>div .current_fillial_map {
+    display: block;
+  }
+
+  .inner_content>div .current_fillial_map #simple_map {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address:only-child .text>div {
+    width: 100%;
+    float: none;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address:only-child .text>div:first-child {
+    padding: 0 0 0 0;
+  }
+
+  .inner_content>div .symptom_search>.last_articles>div>div article {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+
+
+  .symptom_form input {
+    width: calc(100% - 0px);
+  }
+
+  a.switcher {
+    right: 0;
+  }
+
+  .inner_content>div>.article_tabs a {
+    width: 100%;
+    height: 48px;
+    border-left: 1px solid #dcdcdc;
+    line-height: 48px;
+    border-top: none;
+  }
+
+  .inner_content>div>.article_tabs a:first-child {
+    border-top: 1px solid #dcdcdc;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .inner_content>div>.article_tabs a:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .inner_content>div .doctors_grid>div section .inner>div figure {
+    width: calc(50% - 25px);
+  }
+
+  .inner_content>div .doctors_grid>div>figure {
+    width: calc(50% - 25px);
+  }
+
+  .inner_content>div .doctor_info {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .inner_content>div .content_side {
+    width: 100%;
+  }
+
+  .inner_content>div .package_list>div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content>div .package_list>div>div {
+    width: 100%;
+    margin: 0 0 70px;
+  }
+
+  .inner_content>div .package_list>div>div>a img {
+    width: 100%;
+  }
+
+  .inner_content>div .package_list>div>div p {
+    top: calc(100% + 15px);
+    font-size: 18px;
+  }
+
+  .inner_content>div .similar_packages>div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inner_content>div .similar_packages>div>div {
+    width: 100%;
+    margin: 0 0 80px;
+  }
+
+  .inner_content>div .similar_packages>div>div p {
+    top: calc(100% + 15px);
+  }
+
+  .inner_content>div>.filiall_grid>div {
+    width: calc(50% - 8px);
+    margin: 0 0 80px;
+  }
+
+  .inner_content>div>.filiall_grid>div:nth-child(3n) {
+    margin: 0 0 80px;
+    float: left;
+  }
+
+  .inner_content>div>.filiall_grid>div:nth-child(2n) {
+    float: right;
+  }
+
+  .inner_content>div>.filiall_grid>div span {
+    width: calc(100% - 40px);
+    font-size: 18px;
+    top: calc(100% + 15px);
+  }
+
+  .inner_content>div .filiall_tabs {
+    padding: 0 0 20px;
+  }
+
+  .inner_content>div .filiall_tabs a {
+    width: 100%;
+    height: 48px;
+    border-left: 1px solid #dcdcdc;
+    line-height: 48px;
+    border-top: none;
+  }
+
+  .inner_content>div .simple_page .vacancy_list .list ul li {
+    width: calc(50% - 25px);
+  }
+
+  .inner_content>div .simple_page .vacancy_list .list ul li:nth-child(3n-2) {
+    margin: 0 0 0 25px;
+  }
+
+  .inner_content>div .simple_page .vacancy_list .list ul li:nth-child(2n-1) {
+    margin: 0;
+  }
+
+  .inner_content>div .card_list article {
+    width: 100%;
+    height: auto;
+    margin: 0 0 40px !important;
+  }
+
+  .inner_content>div .card_list article .image {
+    padding: 0 0 20px;
+  }
+
+  .inner_content>div .current_card .card {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .inner_content>div .current_card .info {
+    width: 100%;
+  }
+
+
+  .go_back {
+    padding: 5px 0 0;
+  }
+
+  .payment_form .field_info {
+    right: 20px;
+  }
+
+  .payment_form .field_info em {
+    left: auto;
+    right: 0;
+  }
+
+  .payment_form .field_info em::before {
+    left: calc(100% - 15px)
+  }
+
+  .inner_content>div>.analiz_search .form {
+    width: 100%;
+    padding: 0 0 10px;
+  }
+
+  .analiz_search .link {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .symptom_map {
+    display: none !important;
+  }
+
+  .symptom_search {
+    display: block !important;
+  }
+
+  .search_by_image_header .text {
+    display: none !important;
+  }
+
+  .symptom_form {
+    display: block !important;
+  }
+
+  a.switcher {
+    display: none;
+  }
+
+  .tags_list.toggle_tags>div>div {
+    display: block;
+  }
+
+  .search_by_image_header {
+    margin: 0 0 10px;
+  }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+  .index_bg {
+    display: none;
+  }
+
+  .index_bullets {
+    display: none;
+  }
+
+  .index_inset {
+    display: none;
+  }
+
+  .index_nav {
+    width: 100%;
+  }
+
+  a.toggler {
+    background: #159ee3;
+  }
+
+  a.toggler p {
+    background: #fff;
+  }
+
+  a.toggler.active {
+    background: #fff;
+  }
+
+  a.toggler.active p {
+    background: #159ee3;
+  }
+
+  header#header.index .phone a {
+    color: #159ee3;
+  }
+
+  header#header.index .phone span {
+    color: #159ee3;
+  }
+
+
+  header#header.index a.toggler {
+    right: 20px;
+    background: #159ee3;
+  }
+
+  header#header.index a.toggler p {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active {
+    background: #fff;
+  }
+
+  header#header.index a.toggler.active p {
+    background: #159ee3;
+  }
+
+  header#header .phone a {
+    color: #159ee3;
+  }
+
+
+  .inner_content>div {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 20px 0 20px;
+    margin: 0;
+  }
+
+  .inner_content.medium>div {
+    max-width: 1920px;
+  }
+
+  .inner_content>div>.polyclinic_grid>div {
+    width: calc(33.333% - 20px);
+  }
+
+  .inner_content>div>.polyclinic_grid>div.long {
+    width: calc(66.666% - 20px);
+  }
+
+  div.inner_nav {
+    display: none;
+    top: 240px;
+  }
+
+
+  .inner_content>div .current_fillial_map #simple_map {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .inner_content>div .current_fillial_map .fillial_address {
+    width: 100%;
+  }
+
+  .symptom_form input {
+    width: calc(100% - 70px);
+  }
+
+  a.switcher {
+    right: 0;
+  }
+
+  .inner_content>div .doctors_grid>div section .inner>div figure {
+    width: calc(33.33% - 25px);
+  }
+
+  .inner_content>div .doctors_grid>div>figure {
+    width: calc(33.33% - 25px);
+  }
+
+  .inner_content>div .doctor_info {
+    width: 160px;
+  }
+
+  .inner_content>div .content_side {
+    width: calc(100% - 180px);
+  }
+
+
+  .inner_content>div .package_list>div {
+    width: calc(100% + 15px);
+    margin: 0 0 0 -15px;
+  }
+
+  .inner_content>div .package_list>div>div {
+    width: calc(50% - 15px);
+    margin: 0 0 100px 15px;
+  }
+
+  .inner_content>div>.filiall_grid>div {
+    margin: 0 28px 80px 0;
+  }
+
+  .inner_content>div>.filiall_grid>div:nth-child(3n) {
+    margin: 0 0 80px 0;
+  }
+
+  .inner_content>div>.filiall_grid>div span {
+    width: calc(100% - 60px);
+    font-size: 18px;
+    top: calc(100% + 15px);
+  }
+
+
+  .payment_form .field_info em {
+    left: auto;
+    right: 0;
+  }
+
+  .payment_form .field_info em::before {
+    left: calc(100% - 15px)
+  }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  div.inner_nav {
+    display: none;
+  }
+
+
+  .index_bg {
+    width: calc(100% - 100px);
+    right: -120px;
+  }
+
+  .index_inset h2 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .index_inset .copyright {
+    padding: 0 40px 0 0;
+    text-align: right;
+  }
+
+
+
+  .inner_content>div {
+    width: 100%;
+    padding: 0 40px 0 40px;
+    margin: 0 auto;
+  }
+
+  .inner_content.medium>div {
+    max-width: 1030px;
+    margin: 0 auto;
+  }
+
+  .symptom_form input {
+    width: calc(100% - 70px);
+  }
+
+  a.switcher {
+    right: 0;
+  }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+
+
+  .index_bg {
+    width: calc(100% - 100px);
+  }
+
+
+
+  .inner_content.long>div {
+    max-width: 1100px;
+  }
+
+  .inner_content.medium>div {
+    max-width: 940px;
+  }
+
+
+}
+
+@media (min-height: 240px) and (max-height: 480px) {
+
+
+  #header>div>.logo>a {
+    width: 80px;
+    height: 92px;
+    background-size: 100%;
+  }
+
+  header#header>div {
+    padding: 20px 20px 0;
+  }
+
+  .index_nav {
+    display: block;
+    padding: 110px 0 0;
+  }
+
+  .index_nav ul {
+    display: block;
+    height: calc(100vh - 150px);
+    margin: 0 auto;
+    overflow-y: auto;
+  }
+
+  footer#footer {
+    height: 35px;
+  }
+
+  div#aside_nav {
+    width: calc(100% - 10px);
+    right: calc(-100% + 10px);
+  }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) and (max-height: 740px) {
+  .index_nav {
+    padding: 0 0 0 100px;
+  }
+
+  .index_nav ul {
+    width: 384px;
+    height: 384px;
+  }
+
+  .index_nav ul li {
+    width: 180px;
+    height: 180px;
+    margin: 6px;
+  }
+
+  .index_nav ul li a span {
+    height: 130px;
+    line-height: 130px;
+  }
+
+  .index_nav ul li a strong {
+    font-size: 20px;
+  }
+}
