@@ -14,4 +14,5 @@ $(".symptom_map map area").click(function () {
     $('.tags_list div[data-tags="1"]').addClass('show_me')
     $(".last_articles article").hide();
     $(`.${$(this).data("tags")}`).show();
+    $(`.tags_list>div>div a[data-value="${$(this).data("tags")}"]`).toggleClass("active lookup");
 });

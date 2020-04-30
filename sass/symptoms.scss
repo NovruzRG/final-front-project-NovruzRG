@@ -788,15 +788,46 @@ body.opened_nav header#header {
                         animation-duration: 0.2s;
                         transition: all 0.2s linear;
                     }
+
+                    span::before {
+                        content: "";
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        background: #fff;
+                        position: absolute;
+                        top: 0;
+                        left: -12px;
+                        border-radius: 6px;
+                        animation-duration: 0.2s;
+                        transition: all 0.2s linear;
+                    }
+
+                    span::after {
+                        content: "";
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        background: #fff;
+                        position: absolute;
+                        top: 0;
+                        left: 12px;
+                        border-radius: 6px;
+                        animation-duration: 0.2s;
+                        transition: all 0.2s linear;
+                    }
                 }
+
                 a:hover {
                     color: #000;
                     text-decoration: none;
                 }
+
                 a.active {
                     color: #0077b3;
                     margin: 0 41px 15px 0;
                 }
+
                 a.active::after {
                     content: "";
                     display: block;
@@ -808,9 +839,11 @@ body.opened_nav header#header {
                     right: -20px;
                     opacity: 0.2;
                 }
-               a.active:hover::after {
+
+                a.active:hover::after {
                     opacity: 0.8;
                 }
+
                 >div {
                     animation-duration: 0.3s;
                     transition: all 0.3s linear;
@@ -831,6 +864,38 @@ body.opened_nav header#header {
 
                     >div.show_me {
                         display: block;
+                    }
+                }
+            }
+
+            .tags_list.show_me {
+                >div {
+                    width: calc(100vw - 85px);
+                }
+
+                >a {
+                    border-radius: 0 50% 50% 0;
+
+                    span {
+                        width: 32px;
+                        height: 4px;
+                        left: 12px;
+                    }
+
+                    span::before {
+                        width: 16px;
+                        height: 4px;
+                        left: 0;
+                        top: -4px;
+                        transform: rotate(-30deg);
+                    }
+
+                    span::after {
+                        width: 16px;
+                        height: 4px;
+                        left: 0;
+                        top: 4px;
+                        transform: rotate(30deg);
                     }
                 }
             }

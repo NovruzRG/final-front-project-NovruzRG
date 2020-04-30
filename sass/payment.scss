@@ -726,7 +726,14 @@ body.opened_nav header#header {
                     padding: 0 8px 0 0;
                 }
             }
-
+            .price.active {
+                color: rgb(255, 255, 255);
+                border-width: 1px;
+                border-style: dashed;
+                border-color: rgb(0, 119, 179);
+                border-image: initial;
+                background: rgb(0, 119, 179);
+            }
             .submit {
                 button {
                     display: block;
@@ -751,6 +758,13 @@ body.opened_nav header#header {
                     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
                     background-image: linear-gradient(257deg, #16d2fb, #1ba9f0);
                 }
+            }
+
+            .submit::after {
+                content: "";
+                display: block;
+                height: 0px;
+                clear: both;
             }
         }
     }

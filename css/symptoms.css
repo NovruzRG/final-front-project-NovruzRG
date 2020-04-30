@@ -859,6 +859,38 @@ body.opened_nav header#header {
   transition: all 0.2s linear;
 }
 
+.inner_content > div .search_by_image_header .tags_list > a span::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  border-radius: 6px;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.inner_content > div .search_by_image_header .tags_list > a span::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  border-radius: 6px;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
 .inner_content > div .search_by_image_header .tags_list a:hover {
   color: #000;
   text-decoration: none;
@@ -908,6 +940,38 @@ body.opened_nav header#header {
 
 .inner_content > div .search_by_image_header .tags_list > div > div.show_me {
   display: block;
+}
+
+.inner_content > div .search_by_image_header .tags_list.show_me > div {
+  width: calc(100vw - 85px);
+}
+
+.inner_content > div .search_by_image_header .tags_list.show_me > a {
+  border-radius: 0 50% 50% 0;
+}
+
+.inner_content > div .search_by_image_header .tags_list.show_me > a span {
+  width: 32px;
+  height: 4px;
+  left: 12px;
+}
+
+.inner_content > div .search_by_image_header .tags_list.show_me > a span::before {
+  width: 16px;
+  height: 4px;
+  left: 0;
+  top: -4px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.inner_content > div .search_by_image_header .tags_list.show_me > a span::after {
+  width: 16px;
+  height: 4px;
+  left: 0;
+  top: 4px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 .inner_content > div .symptom_search {

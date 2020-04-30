@@ -27,11 +27,11 @@
     text-align: center
   }
 
-  .social_links span {
+  #footer.index .social_links span {
     display: none;
   }
 
-  .social_links {
+  #footer.index .social_links {
     width: 100%;
     float: none;
   }
@@ -235,16 +235,16 @@
     margin: 40px 0 0;
   }
 
-  .symptom_form input {
+  .inner_content > div .search_by_image_header .symptom_form input {
     width: 100%;
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     right: 0;
     top: 70px;
   }
 
-  .tags_list {
+  .inner_content>div .search_by_image_header .tags_list {
     position: absolute;
     left: 0;
     top: 70px;
@@ -253,17 +253,17 @@
     border-radius: 0 0 8px 0;
   }
 
-  .tags_list>div {
+  .inner_content>div .search_by_image_header .tags_list>div {
     overflow: hidden;
     width: 0;
   }
 
-  .tags_list>div>div {
+  .inner_content>div .search_by_image_header .tags_list>div>div {
     width: calc(100vw - 105px);
     padding: 20px 10px 10px;
   }
 
-  .tags_list>a {
+  .inner_content>div .search_by_image_header .tags_list>a {
     display: block;
   }
 
@@ -440,20 +440,20 @@
   }
 
 
-  .payment_form {
+  .inner_content > div .payment_form {
     padding: 0;
   }
 
-  .payment_form .field_info {
+  .inner_content > div .payment_form .field_info {
     right: 20px;
   }
 
-  .payment_form .field_info em {
+  .inner_content > div .payment_form .field_info em {
     left: auto;
     right: 0;
   }
 
-  .payment_form .field_info em::before {
+  .inner_content > div .payment_form .field_info em::before {
     left: calc(100% - 15px)
   }
 
@@ -479,15 +479,15 @@
     display: none !important;
   }
 
-  .symptom_form {
+  .inner_content > div .search_by_image_header .symptom_form {
     display: block !important;
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     display: none;
   }
 
-  .tags_list.toggle_tags>div>div {
+  .inner_content>div .search_by_image_header .tags_list.toggle_tags>div>div {
     display: block;
   }
 
@@ -507,7 +507,7 @@
     justify-content: space-between;
   }
 
-  .social_links {
+  #footer.index .social_links {
     float: none;
   }
 
@@ -690,11 +690,11 @@
   }
 
 
-  .symptom_form input {
+  .inner_content > div .search_by_image_header .symptom_form input {
     width: calc(100% - 0px);
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     right: 0;
   }
 
@@ -833,16 +833,16 @@
     padding: 5px 0 0;
   }
 
-  .payment_form .field_info {
+  .inner_content > div .payment_form .field_info {
     right: 20px;
   }
 
-  .payment_form .field_info em {
+  .inner_content > div .payment_form .field_info em {
     left: auto;
     right: 0;
   }
 
-  .payment_form .field_info em::before {
+  .inner_content > div .payment_form .field_info em::before {
     left: calc(100% - 15px)
   }
 
@@ -869,15 +869,15 @@
     display: none !important;
   }
 
-  .symptom_form {
+  .inner_content > div .search_by_image_header .symptom_form {
     display: block !important;
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     display: none;
   }
 
-  .tags_list.toggle_tags>div>div {
+  .inner_content>div .search_by_image_header .tags_list.toggle_tags>div>div {
     display: block;
   }
 
@@ -990,11 +990,11 @@
     width: 100%;
   }
 
-  .symptom_form input {
+  .inner_content > div .search_by_image_header .symptom_form input {
     width: calc(100% - 70px);
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     right: 0;
   }
 
@@ -1040,12 +1040,12 @@
   }
 
 
-  .payment_form .field_info em {
+  .inner_content > div .payment_form .field_info em {
     left: auto;
     right: 0;
   }
 
-  .payment_form .field_info em::before {
+  .inner_content > div .payment_form .field_info em::before {
     left: calc(100% - 15px)
   }
 
@@ -1086,11 +1086,11 @@
     margin: 0 auto;
   }
 
-  .symptom_form input {
+  .inner_content > div .search_by_image_header .symptom_form input {
     width: calc(100% - 70px);
   }
 
-  a.switcher {
+  .inner_content>div .search_by_image_header a.switcher {
     right: 0;
   }
 

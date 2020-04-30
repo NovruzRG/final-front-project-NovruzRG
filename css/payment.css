@@ -808,6 +808,16 @@ body.opened_nav header#header {
   padding: 0 8px 0 0;
 }
 
+.inner_content > div .payment_form .price.active {
+  color: white;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: #0077b3;
+  -o-border-image: initial;
+     border-image: initial;
+  background: #0077b3;
+}
+
 .inner_content > div .payment_form .submit button {
   display: block;
   height: 58px;
@@ -834,6 +844,13 @@ body.opened_nav header#header {
   -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(257deg, #16d2fb, #1ba9f0);
+}
+
+.inner_content > div .payment_form .submit::after {
+  content: "";
+  display: block;
+  height: 0px;
+  clear: both;
 }
 
 .inner_content.long > div {

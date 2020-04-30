@@ -162,6 +162,10 @@ $(document).ready(function () {
             $(".last_articles article").show();
         }
     });
+    $(document).on("click", ".tags_list", function () {
+        $(this).toggleClass("show_me");
+
+    });
     // symptoms switcher end
     // doctors accordion
     $(document).on("click", ".doctors_grid section h3 a", function () {
@@ -192,4 +196,21 @@ $(document).ready(function () {
         }
     });
     // branch hiden modal nav end
+    // payment
+    $(document).on("change", "input[name='amount']", function () {
+        let value = $("input[name='amount']").val();
+        console.log(value);
+
+        if (value > 500) {
+            $(".price strong").text("500");
+        } else {
+            $(".price strong").text($("input[name='amount']").val());
+        }
+        if (value != 0) {
+            $(".price").addClass("active");
+        } else {
+            $(".price").removeClass("active");
+        }
+    });
+    // payment end   
 });
